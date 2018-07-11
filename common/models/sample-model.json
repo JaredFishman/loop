@@ -1,0 +1,28 @@
+{
+  "name": "SampleModel",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "content": {
+      "type": "string",
+      "required": true
+    },
+    "attachmentName": {
+      "type": "string"
+    },
+    "blob": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

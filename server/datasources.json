@@ -1,0 +1,15 @@
+{
+  "db": {
+    "host": "<yourstorageaccount>.database.windows.net",
+    "port": 1433,
+    "database": "<yourdatabase>",
+    "password": "<yourpassword>",
+    "name": "db",
+    "connector": "mssql",
+    "schema": "dbo",
+    "user": "<youruser>",
+    "options": {
+      "encrypt": true
+    }
+  }
+}
